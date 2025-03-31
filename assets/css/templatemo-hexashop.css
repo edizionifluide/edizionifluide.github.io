@@ -30,6 +30,36 @@ font & reset css
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 /* 
+
+@font-face {
+    font-family: 'Nimbus Sans L';
+    src: url('fonts/NimbusSanL-Reg.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nimbus Sans L';
+    src: url('fonts/NimbusSanL-RegIta.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Nimbus Sans L';
+    src: url('fonts/NimbusSanL-Bol.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nimbus Sans L';
+    src: url('fonts/NimbusSanL-BolIta.woff2') format('woff2'),
+         url('fonts/NimbusSanL-BolIta.woff') format('woff'),
+         url('fonts/NimbusSanL-BolIta.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
 ---------------------------------------------
 reset
 --------------------------------------------- 
@@ -80,7 +110,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'NimbusSansL', sans-serif;
+  font-family: 'Nimbus Sans L', sans-serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
